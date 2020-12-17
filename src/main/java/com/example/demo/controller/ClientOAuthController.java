@@ -6,13 +6,10 @@ import org.springframework.web.bind.annotation.GetMapping;
 
 @Controller
 public class ClientOAuthController {
-
-	String strUser = "";
-	Integer iUserID;
 	
-	@GetMapping("/register")
-	public String viewHomePage(Model model) {
-		return "register";
+	@GetMapping("/welcome")
+	public String viewWelcomePage(Model model) {
+		return "welcome";
 	}
 	
 }
