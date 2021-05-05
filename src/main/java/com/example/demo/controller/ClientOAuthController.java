@@ -10,6 +10,6 @@ public class ClientOAuthController {
 	@GetMapping("/welcome")
 	public String viewWelcomePage(Model model) {
 		return "welcome";
-	}
+	} 
 	
 }

@@ -10,6 +10,6 @@ public class AwsdevopsPoCStaticApplication extends SpringBootServletInitializer 
 	
 	public static void main(String[] args) {
 		SpringApplication.run(AwsdevopsPoCStaticApplication.class, args);
-	}
+	} 
 
 }

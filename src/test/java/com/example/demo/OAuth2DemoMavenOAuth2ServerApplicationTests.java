@@ -8,6 +8,6 @@ class OAuth2DemoMavenOAuth2ServerApplicationTests {
 
 	@Test
 	void contextLoads() {
-	}
+	} 
 
 }
